@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="calculator.css">
+  <script src="calculator.js"></script>
+
+</head>
+
+<body>
+  <div class="thiru">
+    <div class="ti">
+      <label for="num1" class="ti">Number 1:</label>
+      <input type="number" class="tis2" id="num1">
+
+      <label for="operator" class="ti">Operator:</label>
+      <select id="operator" class="tis1">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+      </select>
+
+      <label for="num2" class="ti">Number 2:</label>
+      <input type="number" class="tis2" id="num2">
+      <div>
+
+        <button class="tis" onclick="calculate()">Calculate</button>
+        <button  class="tis" onclick="erase()">clear</button>
+
+      </div>
+
+      <div id="result" class="tis3"></div>
+
+    </div>
+
+  </div>
+
+
+</body>
+
+</html>
